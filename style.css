@@ -26,7 +26,7 @@ nav {
 
 .line {
     margin: auto;
-    margin-top: 10%;
+    margin-top: 3%;
     width: 100%;
     height: 2px;
     background-color: #e5e2e2;
@@ -42,11 +42,11 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1%;
-    margin-top: 10%;
+    margin-top: 3%;
 }
 
 .promo{
-    margin-top: 5%;
+    margin-top: 3%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap:1%;
@@ -90,7 +90,7 @@ footer {
 
 .offcanvas-header .btn-close {
     padding: calc(var(--bs-offcanvas-padding-y)* .5) calc(var(--bs-offcanvas-padding-x)* .5);
-    margin: calc(* var(--bs-offcanvas-padding-y)) calc(-.5* var(--bs-offcanvas-padding-x)) calc(-.5* var(--bs-offcanvas-padding-y)) auto;
+    margin: calc var(--bs-offcanvas-padding-y) calc(-.5* var(--bs-offcanvas-padding-x)) calc(-.5* var(--bs-offcanvas-padding-y)) auto;
 }
 
 .btn-close {
