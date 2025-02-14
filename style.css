@@ -95,7 +95,7 @@ footer {
 
 .btn-close {
     --bs-btn-close-color: #000;
-    --bs-btn-close-bg: url(/icons/back.png);
+    --bs-btn-close-bg:url(icons/back.png);
     --bs-btn-close-opacity: 1;
     --bs-btn-close-hover-opacity: 0.75;
     --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
