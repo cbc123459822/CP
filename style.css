@@ -57,9 +57,9 @@ nav {
 }
 
 footer {
-    height: 50px;
+    height: 80px;
     text-align: center;
-    background-color: #aaa;
+    background-color: #750e0e;
     line-height: 50px;
     margin-top: auto;
 }
@@ -87,12 +87,10 @@ footer {
 .btn img{
     width: 100%;
 }
-.btn p{
 
-}
 .offcanvas-header .btn-close {
     padding: calc(var(--bs-offcanvas-padding-y)* .5) calc(var(--bs-offcanvas-padding-x)* .5);
-    margin: calc(-* var(--bs-offcanvas-padding-y)) calc(-.5* var(--bs-offcanvas-padding-x)) calc(-.5* var(--bs-offcanvas-padding-y)) auto;
+    margin: calc(* var(--bs-offcanvas-padding-y)) calc(-.5* var(--bs-offcanvas-padding-x)) calc(-.5* var(--bs-offcanvas-padding-y)) auto;
 }
 
 .btn-close {
@@ -125,4 +123,11 @@ footer {
 }
 span{
     font-size: 18px;
+}
+.social{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.social img{
+    width: 100%;
 }
