@@ -52,13 +52,36 @@ body {
 }
 
 footer {
-    height: 80px;
+    position: relative;
+    height: 100px;
     text-align: center;
     background-color: #750e0e;
     line-height: 50px;
-    margin-top: 10%;
+    margin-top: 5%;
+}
+.footerbtn{
+    position: absolute;
+    left: 33%;
+    top: 10%;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #f9c54d;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
 
+.footerbtn:active {
+  background-color: #cf201d;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 
 .offcanvas{
     width: 100%;
