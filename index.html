@@ -30,108 +30,153 @@
         <!-- 選單 -->
         <nav>
           <div class="promo">
-            <!--按鈕選單1-->
-            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src="catlog img/01.png" alt=""><span>近期活動</span></button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <!--近期活動-->
+          <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#activityCanvas">
+            <img src="catlog_img/01.png" alt="近期活動"> <span>近期活動</span>
+          </button>
+          <div class="offcanvas offcanvas-end" id="activityCanvas">
               <div class="offcanvas-header">
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                <h5 class="offcanvas-title" id="offcanvasRightLabel">近期活動</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                <h5 class="offcanvas-title">近期活動</h5>
               </div>
-              <div class="offcanvas-body">
-                
-              </div>
-            </div>
-            <!--按鈕選單1-->
-            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src="catlog img/01.png" alt=""><span>近期活動</span></button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-body"></div>
+          </div>
+            <!--批發採購-->
+          <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#businessCanvas">
+            <img src="catlog_img/01.png" alt="批發採購"> <span>批發採購</span>
+          </button>
+          <div class="offcanvas offcanvas-end" id="businessCanvas">
               <div class="offcanvas-header">
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                <h5 class="offcanvas-title" id="offcanvasRightLabel">近期活動</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                <h5 class="offcanvas-title">批發採購</h5>
               </div>
-              <div class="offcanvas-body">
-                
-              </div>
+              <div class="offcanvas-body"></div>
+          </div>
+          <!--產品規格-->
+          <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#catalogCanvas">
+          <img src="catlog_img/01.png" alt="產品規格"> <span>產品規格</span>
+          </button>
+          <div class="offcanvas offcanvas-end" id="catalogCanvas">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+              <h5 class="offcanvas-title">產品規格</h5>
             </div>
-            <!--按鈕選單1-->
-            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src="catlog img/01.png" alt=""><span>近期活動</span></button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-              <div class="offcanvas-header">
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                <h5 class="offcanvas-title" id="offcanvasRightLabel">近期活動</h5>
-              </div>
-              <div class="offcanvas-body">
-                
-              </div>
-            </div>
+            <div class="offcanvas-body"></div>
+          </div>
           </div>
           <!-- 線條 -->
           <div class="line"></div>
           <div class="catalog-logo">
-            <!--按鈕選單1-->
-            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src="catlog img/01.png" alt=""><span>近期活動</span></button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <!--點心炸物-->
+          <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#friedCanvas">
+            <img src="catlog img/點心炸物.png" alt="點心炸物"> <span>點心炸物</span>
+            </button>
+            <div class="offcanvas offcanvas-end" id="friedCanvas">
               <div class="offcanvas-header">
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                <h5 class="offcanvas-title" id="offcanvasRightLabel">近期活動</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                <h5 class="offcanvas-title">點心炸物</h5>
               </div>
               <div class="offcanvas-body">
-                
+                <!-- 炸物產品 -->
+                <div class="card">
+                  <img src="products/點心炸物/厚切日式炸豬排.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="products/點心炸物/原味雞塊.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="products/點心炸物/唐揚雞軟骨.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="products/點心炸物/無骨蒜味香雞球.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="products/點心炸物/起司雞肉洋蔥圈.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="products/點心炸物/韓式無骨鹽酥雞.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="products/點心炸物/黃金雞腿酥.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
               </div>
             </div>
-            <!--按鈕選單1-->
-            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src="catlog img/01.png" alt=""><span>近期活動</span></button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <!--舒肥雞胸-->
+          <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#chickenCanvas">
+            <img src="catlog img/舒肥雞胸.png" alt="舒肥雞胸"> <span>舒肥雞胸</span>
+            </button>
+            <div class="offcanvas offcanvas-end" id="chickenCanvas">
               <div class="offcanvas-header">
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                <h5 class="offcanvas-title" id="offcanvasRightLabel">近期活動</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                <h5 class="offcanvas-title">舒肥雞胸</h5>
               </div>
-              <div class="offcanvas-body">
-                
-              </div>
+              <div class="offcanvas-body"></div>
             </div>
-            <!--按鈕選單1-->
-            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src="catlog img/01.png" alt=""><span>近期活動</span></button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <!--醃漬小品-->
+          <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#pickledCanvas">
+            <img src="catlog img/醃漬小品.png" alt="醃漬小品"> <span>醃漬小品</span>
+            </button>
+            <div class="offcanvas offcanvas-end" id="pickledCanvas">
               <div class="offcanvas-header">
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                <h5 class="offcanvas-title" id="offcanvasRightLabel">近期活動</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                <h5 class="offcanvas-title">醃漬小品</h5>
               </div>
-              <div class="offcanvas-body">
-                
-              </div>
+              <div class="offcanvas-body"></div>
             </div>
-            <!--按鈕選單1-->
-            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src="catlog img/01.png" alt=""><span>近期活動</span></button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <!--即食好料-->
+          <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#readytoeatCanvas">
+            <img src="catlog img/即食好料.png" alt="即食好料"> <span>即食好料</span>
+            </button>
+            <div class="offcanvas offcanvas-end" id="readytoeatCanvas">
               <div class="offcanvas-header">
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                <h5 class="offcanvas-title" id="offcanvasRightLabel">近期活動</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                <h5 class="offcanvas-title">即食好料</h5>
               </div>
-              <div class="offcanvas-body">
-                
-              </div>
+              <div class="offcanvas-body"></div>
             </div>
-            <!--按鈕選單1-->
-            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src="catlog img/01.png" alt=""><span>近期活動</span></button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+           <!--生鮮產品-->
+          <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#meatCanvas">
+            <img src="catlog img/生鮮產品.png" alt="生鮮產品"> <span>生鮮產品</span>
+            </button>
+            <div class="offcanvas offcanvas-end" id="meatCanvas">
               <div class="offcanvas-header">
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                <h5 class="offcanvas-title" id="offcanvasRightLabel">近期活動</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                <h5 class="offcanvas-title">生鮮產品</h5>
               </div>
-              <div class="offcanvas-body">
-                
-              </div>
+              <div class="offcanvas-body"></div>
             </div>
-            <!--按鈕選單1-->
-            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src="catlog img/01.png" alt=""><span>近期活動</span></button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <!--送禮嚴選-->
+          <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#giftCanvas">
+            <img src="catlog img/送禮嚴選.png" alt="送禮嚴選"> <span>送禮嚴選</span>
+            </button>
+            <div class="offcanvas offcanvas-end" id="giftCanvas">
               <div class="offcanvas-header">
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                <h5 class="offcanvas-title" id="offcanvasRightLabel">近期活動</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                <h5 class="offcanvas-title">送禮嚴選</h5>
               </div>
-              <div class="offcanvas-body">
-                
-              </div>
+              <div class="offcanvas-body"></div>
+            </div>
             </div>
             </div>
           </div>
@@ -140,7 +185,6 @@
 </body>
         <!-- 頁尾 -->
         <footer><button class="footerbtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">與我們聯絡</button>
-
           <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
             <div class="offcanvas-header">
               <div class="social">

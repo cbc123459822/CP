@@ -61,7 +61,7 @@ footer {
     text-align: center;
     background-color: #750e0e;
     line-height: 50px;
-    margin-top: 15%;
+    margin-top: auto;
 }
 
 
@@ -90,7 +90,7 @@ footer {
 
 .offcanvas-header .btn-close {
     padding: calc(var(--bs-offcanvas-padding-y)* .5) calc(var(--bs-offcanvas-padding-x)* .5);
-    margin: calc var(--bs-offcanvas-padding-y) calc(-.5* var(--bs-offcanvas-padding-x)) calc(-.5* var(--bs-offcanvas-padding-y)) auto;
+    margin: calc var(--bs-offcanvas-padding-y)ㄚ calc(-.5* var(--bs-offcanvas-padding-x)) calc(-.5* var(--bs-offcanvas-padding-y)) auto;
 }
 
 .btn-close {
@@ -115,19 +115,38 @@ footer {
 
 .offcanvas-header{
     display: grid;
-    gap: 30%;
+    gap: 5%;
+}
+.offcanvas-body{
+    width: 100%;
+    flex-grow: unset;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4%;
+    overflow:hidden;
 }
 
 .offcanvas-title{
     font-size: 48px;
 }
+
 span{
     font-size: 18px;
 }
+
 .social{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 .social img{
     width: 100%;
+}
+
+.card{
+    border: 0;
+}
+
+.card img{
+    border-radius: 8%;
 }
