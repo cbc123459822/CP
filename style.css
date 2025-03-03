@@ -194,3 +194,9 @@ span{
     width: 100%;
     margin-bottom: 30%;
 }
+
+.collapse span{
+    text-align: right;
+    font-size: small;
+    color: #999;
+}
