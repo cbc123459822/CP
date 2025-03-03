@@ -139,6 +139,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4%;
+    height: 100%;
 }
 
 .offcanvas-title{
@@ -194,9 +195,3 @@ span{
     width: 100%;
     margin-bottom: 30%;
 }
-/* 
-.collapse span{
-    text-align: right;
-    font-size: small;
-    color: #999;
-} */
