@@ -170,6 +170,7 @@ span{
 .card-body{
     padding: 4%;
     flex: 0;
+    width: 100% !important;
 }
 .card-body h5{
     display: grid;
